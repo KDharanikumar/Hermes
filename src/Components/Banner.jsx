@@ -13,7 +13,7 @@ const Banner = () => {
 		<section id="hero" className="d-flex align-items-center justify-content-center">
 			<div className="container-fluid">
 				<div className="container" data-aos="fade-up">
-					<div className="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+					<div className="row justify-content-center mt-3" data-aos="fade-up" data-aos-delay="150">
 						<div className="col-xl-6 col-lg-8">
 							<h1>
 								Grow your business with <span>Hermes</span>
@@ -31,8 +31,8 @@ const Banner = () => {
 						</Link>
 					</div>
 
-					<div className="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-						<div className="col-xl-2 col-md-4">
+					<div className="row gy-4 mt-4 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+						<div className="col-xl-3">
 							<div className="icon-box">
 								<icon>
 									<FaPeopleArrows />
@@ -40,7 +40,7 @@ const Banner = () => {
 								<h3>General Staffing</h3>
 							</div>
 						</div>
-						<div className="col-xl-2 col-md-4">
+						<div className="col-xl-3">
 							<div className="icon-box">
 								<icon>
 									<FaUserTie />
@@ -48,7 +48,7 @@ const Banner = () => {
 								<h3>Permanent Recruitment</h3>
 							</div>
 						</div>
-						<div className="col-xl-2 col-md-4">
+						<div className="col-xl-3">
 							<div className="icon-box">
 								<icon>
 									<FaCity />
@@ -56,7 +56,7 @@ const Banner = () => {
 								<h3>Facility Management</h3>
 							</div>
 						</div>
-						<div className="col-xl-2 col-md-4">
+						<div className="col-xl-3">
 							<div className="icon-box">
 								<icon>
 									<FaUsersCog />

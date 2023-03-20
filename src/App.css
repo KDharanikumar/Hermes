@@ -34,6 +34,14 @@ a {
 	background-color: #2a2828;
 }
 
+.navbar .navbar-toggler {
+	color: #ff4a17;
+}
+
+.navbar .navbar-toggler-icon {
+	background: #ff4a17;
+}
+
 .navbar .navbar-brand {
 	color: #fff;
 	font-size: 32px;
@@ -70,6 +78,7 @@ a {
 	background: url("../src/Images/hero-bg.jpg") top center;
 	background-size: cover;
 	position: relative;
+	padding-bottom: 40px;
 }
 
 #hero:before {
@@ -113,6 +122,7 @@ a {
 	border: 2px solid rgba(255, 255, 255, 0.3);
 	height: 100%;
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #hero .icon-box icon {
@@ -164,7 +174,7 @@ a {
 
 /***************************************************COUNTER****************************************/
 .counts {
-	margin: 50px 0px;
+	margin: 30px 0px;
 	padding: 50px 0px 0px 0px;
 }
 

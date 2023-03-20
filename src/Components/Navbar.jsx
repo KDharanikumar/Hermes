@@ -11,7 +11,7 @@ const Navbar = () => {
 				</div>
 
 				<button
-					className="navbar-toggler text-white "
+					className="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarSupportedContent"
@@ -19,7 +19,7 @@ const Navbar = () => {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span className="navbar-toggler-icon text-white"></span>
+					<span className="navbar-toggler-icon"></span>
 				</button>
 				<div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 					<ul className="navbar-nav mb-2 mb-lg-0">

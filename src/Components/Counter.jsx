@@ -23,7 +23,7 @@ const Counter = () => {
 		<section id="counts" className="counts">
 			<div className="container" data-aos="fade-up">
 				<div className="row">
-					<div className="col-lg-3 col-md-6 mt-lg-0">
+					<div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
 						<div className="count-box">
 							<i>
 								<BsEmojiSmile />
