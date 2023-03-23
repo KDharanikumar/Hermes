@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg">
-			<div className="container-fluid p-0 m-0">
+			<div className="container-fluid">
 				<div>
 					<Link to="/" className="navbar-brand">
 						HERMES
@@ -21,7 +21,7 @@ const Navbar = () => {
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<div className="collapse navbar-collapse justify-content-end pe-5" id="navbarSupportedContent">
 					<ul className="navbar-nav mb-2 mb-lg-0">
 						<li className="nav-item">
 							<Link to="/" className="nav-link active" aria-current="page">

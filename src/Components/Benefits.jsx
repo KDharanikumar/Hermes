@@ -15,12 +15,12 @@ const Benefits = () => {
 	return (
 		<section>
 			<div className="container-fluid">
-				<div className="container benefits">
-					<div className="section-title" data-aos="fade-up">
-						<h5>KEY BENEFITS</h5>
-						<h2>KEY BENEFITS OF HAPPY ASSOCIATE PROGRAM</h2>
-					</div>
+				<div className="container p-0 benefits">
 					<div className="row">
+						<div className="section-title" data-aos="fade-up">
+							<h5>KEY BENEFITS</h5>
+							<h2>KEY BENEFITS OF HAPPY ASSOCIATE PROGRAM</h2>
+						</div>
 						<div className="d-flex flex-wrap justify-content-center align-items-center">
 							<div className="col">
 								<img src={BenefitsImg} alt="Benefits-img" data-aos="fade-left" />

@@ -17,12 +17,12 @@ const Industries = () => {
 	return (
 		<section>
 			<div className="container-fluid mb-5">
-				<div className="container industries">
-					<div className="section-title">
-						<h5>INDUSTRIES</h5>
-						<h2>INDUSTRIES WE SERVE</h2>
-					</div>
+				<div className="container p-0 industries">
 					<div className="row">
+						<div className="section-title">
+							<h5>INDUSTRIES</h5>
+							<h2>INDUSTRIES WE SERVE</h2>
+						</div>
 						<div className="p-0 d-flex flex-wrap justify-content-between align-items-center text-center">
 							<div className="industries-serve">
 								<Lottie className="icon" loop={true} animationData={Engineering} data-aos="fade-right" />

@@ -1,10 +1,11 @@
 // import { AiFillTwitterCircle } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const Footer = () => {
 	return (
 		<footer id="footer">
 			<div className="footer-top">
-				<div className="container">
-					<div className="row">
+				<div className="container p-0">
+					<div className="row p-0 m-0">
 						<div className="col-lg-4 col-md-6 footer-contact">
 							<h2>HERMES</h2>
 							<p>
@@ -24,29 +25,29 @@ const Footer = () => {
 							<h3>Useful Links</h3>
 							<ul>
 								<li>
-									<a href="/">
+									<Link to="/">
 										<span>{">"}</span>Home
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="aboutus">
+									<Link to="aboutus">
 										<span>{">"}</span>About us
-									</a>
+									</Link>
 								</li>
 								<li>
-									<a href="services">
+									<Link to="services">
 										<span>{">"}</span>Services
-									</a>
+									</Link>
 								</li>
-								<li>
-									<a href="clients">
+								{/* <li>
+									<Link to="clients">
 										<span>{">"}</span>Clients
-									</a>
-								</li>
+									</Link>
+								</li> */}
 								<li>
-									<a href="contact">
+									<Link to="contact">
 										<span>{">"}</span>Contact
-									</a>
+									</Link>
 								</li>
 							</ul>
 						</div>

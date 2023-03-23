@@ -21,45 +21,45 @@ const Counter = () => {
 	}, []);
 	return (
 		<section id="counts" className="counts">
-			<div className="container" data-aos="fade-up">
+			<div className="container p-0" data-aos="fade-up">
 				<div className="row">
-					<div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
+					<div className="col-lg-3 mt-5 mt-lg-0">
 						<div className="count-box">
 							<i>
 								<BsEmojiSmile />
 							</i>
 							<span>
-								<Number n={8} />
+								<Number n={12} />
 							</span>
 							<p>Happy Clients</p>
 						</div>
 					</div>
 
-					<div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
+					<div className="col-lg-3 mt-5 mt-lg-0">
 						<div className="count-box">
 							<i>
 								<BsFileEarmarkBarGraphFill />
 							</i>
 							<span>
-								<Number n={100} />
+								<Number n={50} />
 							</span>
 							<p>Projects</p>
 						</div>
 					</div>
 
-					<div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
+					<div className="col-lg-3 mt-5 mt-lg-0">
 						<div className="count-box">
 							<i>
 								<BsClock />
 							</i>
 							<span>
-								<Number n={100} />
+								<Number n={14} />
 							</span>
 							<p>Years of experience</p>
 						</div>
 					</div>
 
-					<div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
+					<div className="col-lg-3 mt-5 mt-lg-0">
 						<div className="count-box">
 							<i>
 								<BsPeople />

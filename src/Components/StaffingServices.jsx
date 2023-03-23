@@ -12,12 +12,12 @@ const StaffingServices = () => {
 	return (
 		<section>
 			<div className="container-fluid">
-				<div className="container staffing-services">
-					<div className="section-title">
-						<h5>SERVICES</h5>
-						<h2>STAFFING SERVICES</h2>
-					</div>
+				<div className="container p-0 staffing-services">
 					<div className="row">
+						<div className="section-title">
+							<h5>SERVICES</h5>
+							<h2>STAFFING SERVICES</h2>
+						</div>
 						<div className="d-flex flex-wrap justify-content-center align-items-center">
 							<div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center ">
 								<div className="staffing-services-box" data-aos="flip-up" data-aos-delay="200">

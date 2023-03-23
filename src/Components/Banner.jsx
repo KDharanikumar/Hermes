@@ -13,7 +13,7 @@ const Banner = () => {
 		<section id="hero" className="d-flex align-items-center justify-content-center">
 			<div className="container-fluid">
 				<div className="container" data-aos="fade-up">
-					<div className="row justify-content-center mt-3" data-aos="fade-up" data-aos-delay="150">
+					<div className="row m-0 justify-content-center text-center mt-3" data-aos="fade-up" data-aos-delay="150">
 						<div className="col-xl-6 col-lg-8">
 							<h1>
 								Grow your business with <span>Hermes</span>
@@ -31,7 +31,7 @@ const Banner = () => {
 						</Link>
 					</div>
 
-					<div className="row gy-4 mt-4 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+					<div className="row my-3 mx-0 p-0 gy-4 mt-4 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
 						<div className="col-xl-3">
 							<div className="icon-box">
 								<icon>

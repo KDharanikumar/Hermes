@@ -74,7 +74,7 @@ a {
 
 #hero {
 	width: 100%;
-	height: 100vh;
+	/* height: 100vh; */
 	background: url("../src/Images/hero-bg.jpg") top center;
 	background-size: cover;
 	position: relative;
@@ -94,7 +94,7 @@ a {
 #hero .container {
 	position: relative;
 	padding-top: 74px;
-	text-align: center;
+	/* text-align: center; */
 }
 
 #hero h1 {
@@ -179,17 +179,17 @@ a {
 }
 
 .counts .count-box {
-	padding: 30px 30px;
+	padding: 30px 20px;
 	width: 100%;
 	position: relative;
 	text-align: center;
 	background: #f1f6fe;
 }
 
-.counts .count-box:hover {
+/* .counts .count-box:hover {
 	transform: scale3d(1.1, 1.1, 1);
 	transition: transform 1s ease-in-out;
-}
+} */
 
 .counts .count-box i {
 	position: absolute;
@@ -212,7 +212,7 @@ a {
 .counts .count-box span {
 	font-size: 36px;
 	display: block;
-	font-weight: 600;
+	font-weight: 700;
 	color: #ff5d30;
 }
 
@@ -406,12 +406,12 @@ a {
 	font-weight: 700;
 }
 
-.about-clients img {
+/* .about-clients img {
 	height: 100px;
 	width: 100px;
 	object-fit: contain;
 	margin-bottom: 30px;
-}
+} */
 
 /*****************************************************SERVICES*****************************************/
 
@@ -453,12 +453,7 @@ a {
 .services .nav-link.active {
 	transition: 0.3s;
 	background: rgb(131, 58, 180);
-	background: linear-gradient(
-		90deg,
-		rgba(131, 58, 180, 1) 0%,
-		rgba(253, 81, 29, 0.6559873949579832) 0%,
-		rgba(241, 71, 14, 1) 100%
-	);
+	background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 81, 29, 0.6559873949579832) 0%, rgba(241, 71, 14, 1) 100%);
 }
 
 .services .nav-link.active h4 {

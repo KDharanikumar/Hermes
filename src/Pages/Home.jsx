@@ -16,12 +16,14 @@ const Home = () => {
 
 	return (
 		<section>
-			<Banner />
-			<Counter />
-			<StaffingServices />
-			<Benefits />
-			<Process />
-			<Industries />
+			<div>
+				<Banner />
+				<Counter />
+				<StaffingServices />
+				<Benefits />
+				<Process />
+				<Industries />
+			</div>
 		</section>
 	);
 };

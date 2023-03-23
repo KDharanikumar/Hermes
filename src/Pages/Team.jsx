@@ -19,7 +19,7 @@ const Team = () => {
 						<h2>CHECK OUR TEAM</h2>
 					</div>
 
-					<div className="row">
+					<div className="row m-0">
 						<div className="col-lg-3 col-md-6 d-flex align-items-stretch">
 							<div className="member" data-aos="fade-up" data-aos-delay="100">
 								<div className="member-img">
