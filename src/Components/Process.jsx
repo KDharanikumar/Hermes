@@ -19,11 +19,11 @@ const Process = () => {
 							<h2>LABOUR PROCESS</h2>
 						</div>
 						<div className="d-flex flex-wrap justify-content-center align-items-center">
-							<div className="col-lg col-md-6">
+							<div className="col-lg-6 col-md">
 								<img src={ResourceManagement} alt="img" data-aos="fade-right" />
 							</div>
-							<vl className="vl d-none d-lg-block"></vl>
-							<div className="col-lg col-md-6">
+							{/* <vl className="vl d-none d-lg-block"></vl> */}
+							<div className="col-lg-6 col-md">
 								<img src={StatutoryManagement} alt="img" data-aos="fade-left" />
 							</div>
 						</div>

@@ -22,8 +22,8 @@ const Counter = () => {
 	return (
 		<section id="counts" className="counts">
 			<div className="container p-0" data-aos="fade-up">
-				<div className="row">
-					<div className="col-lg-3 mt-5 mt-lg-0">
+				<div className="row m-0">
+					<div className="col-lg-3 col-md-6 col-sm mt-5 mt-lg-0">
 						<div className="count-box">
 							<i>
 								<BsEmojiSmile />
@@ -35,7 +35,7 @@ const Counter = () => {
 						</div>
 					</div>
 
-					<div className="col-lg-3 mt-5 mt-lg-0">
+					<div className="col-lg-3 col-md-6 col-sm mt-5 mt-lg-0">
 						<div className="count-box">
 							<i>
 								<BsFileEarmarkBarGraphFill />
@@ -47,7 +47,7 @@ const Counter = () => {
 						</div>
 					</div>
 
-					<div className="col-lg-3 mt-5 mt-lg-0">
+					<div className="col-lg-3 col-md-6 col-sm mt-5 mt-lg-0">
 						<div className="count-box">
 							<i>
 								<BsClock />
@@ -59,7 +59,7 @@ const Counter = () => {
 						</div>
 					</div>
 
-					<div className="col-lg-3 mt-5 mt-lg-0">
+					<div className="col-lg-3 col-md-6 col-sm mt-5 mt-lg-0">
 						<div className="count-box">
 							<i>
 								<BsPeople />

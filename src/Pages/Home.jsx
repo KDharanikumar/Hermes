@@ -16,13 +16,26 @@ const Home = () => {
 
 	return (
 		<section>
-			<div>
+			<div className="container-fluid m-0 p-0">
 				<Banner />
-				<Counter />
-				<StaffingServices />
-				<Benefits />
-				<Process />
-				<Industries />
+			</div>
+
+			<div className="container p-0">
+				<div>
+					<Counter />
+				</div>
+				<div>
+					<StaffingServices />
+				</div>
+				<div>
+					<Benefits />
+				</div>
+				<div>
+					<Process />
+				</div>
+				<div>
+					<Industries />
+				</div>
 			</div>
 		</section>
 	);

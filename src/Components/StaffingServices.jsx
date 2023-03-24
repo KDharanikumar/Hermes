@@ -19,7 +19,7 @@ const StaffingServices = () => {
 							<h2>STAFFING SERVICES</h2>
 						</div>
 						<div className="d-flex flex-wrap justify-content-center align-items-center">
-							<div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center ">
+							<div className="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center ">
 								<div className="staffing-services-box" data-aos="flip-up" data-aos-delay="200">
 									<div className="text-center">
 										<div className="icon-round">
@@ -40,7 +40,7 @@ const StaffingServices = () => {
 								</div>
 							</div>
 
-							<div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+							<div className="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
 								<div className="staffing-services-box" data-aos="flip-left" data-aos-delay="300">
 									<div className="text-center">
 										<div className="icon-round">
@@ -61,7 +61,7 @@ const StaffingServices = () => {
 								</div>
 							</div>
 
-							<div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+							<div className="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
 								<div className="staffing-services-box" data-aos="flip-right" data-aos-delay="300">
 									<div className="text-center">
 										<div className="icon-round">
@@ -83,7 +83,7 @@ const StaffingServices = () => {
 								</div>
 							</div>
 
-							<div className="col-lg-3 col-md-6 d-flex justify-content-center align-items-center">
+							<div className="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
 								<div className="staffing-services-box" data-aos="flip-down" data-aos-delay="300">
 									<div className="text-center">
 										<div className="icon-round">

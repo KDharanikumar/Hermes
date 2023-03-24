@@ -22,10 +22,10 @@ const Benefits = () => {
 							<h2>KEY BENEFITS OF HAPPY ASSOCIATE PROGRAM</h2>
 						</div>
 						<div className="d-flex flex-wrap justify-content-center align-items-center">
-							<div className="col">
+							<div className="col-lg-6 col-md">
 								<img src={BenefitsImg} alt="Benefits-img" data-aos="fade-left" />
 							</div>
-							<div className="col-lg-6 col-md-6" data-aos="fade-right">
+							<div className="col-lg-6 col-md" data-aos="fade-right">
 								<div className="icon-box" data-aos="fade-down">
 									<i>
 										<BsCashCoin style={{ color: "f72585" }} />

@@ -5,23 +5,23 @@ const Footer = () => {
 		<footer id="footer">
 			<div className="footer-top">
 				<div className="container p-0">
-					<div className="row p-0 m-0">
-						<div className="col-lg-4 col-md-6 footer-contact">
+					<div className="row m-0">
+						<div className="col-lg-4 col-md footer-contact">
 							<h2>HERMES</h2>
 							<p>
-								A108 Adam Street <br />
-								New York, NY 535022
+								A108 Oragadam <br />
+								Oragadam, 600 235
 								<br />
-								United States <br />
+								Tamil Nadu <br />
 								<br />
-								<strong>Phone : </strong> +1 5589 55488 55
+								<strong>Phone : </strong> +91 00000 00000
 								<br />
 								<strong>Email : </strong> info@example.com
 								<br />
 							</p>
 						</div>
 
-						<div className="col-lg-4 col-md-6 footer-links">
+						<div className="col-lg-4 col-md footer-links">
 							<h3>Useful Links</h3>
 							<ul>
 								<li>
@@ -52,7 +52,7 @@ const Footer = () => {
 							</ul>
 						</div>
 
-						<div className="col-lg-4 col-md-6 footer-links">
+						<div className="col-lg-4 col-md footer-links">
 							<h3>Our Services</h3>
 							<ul>
 								<li>
@@ -93,8 +93,8 @@ const Footer = () => {
 					<div>
 						Designed by
 						<strong className="px-2">
-							<a href="https://www.google.com/" target="_blank" style={{ color: "#FF5D30" }} rel="noreferrer">
-								Starflit
+							<a href="https://www.youkotech.com/" target="_blank" style={{ color: "#FF5D30" }} rel="noreferrer">
+								YoukoTech
 							</a>
 						</strong>
 					</div>

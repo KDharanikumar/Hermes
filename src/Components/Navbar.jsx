@@ -40,11 +40,11 @@ const Navbar = () => {
 							</Link>
 						</li>
 
-						{/* <li className="nav-item">
+						<li className="nav-item">
 							<Link to="clients" className="nav-link active" aria-current="page">
-								Clients
+								CLIENTS
 							</Link>
-						</li> */}
+						</li>
 						<li className="nav-item">
 							<Link to="team" className="nav-link active" aria-current="page">
 								TEAM

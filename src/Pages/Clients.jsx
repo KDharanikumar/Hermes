@@ -17,7 +17,7 @@ const Clients = () => {
 	return (
 		<section id="clients" className="clients">
 			<div className="container-fluid">
-				<div className="container">
+				<div className="container mb-5">
 					<div className="section-title" data-aos="fade-up">
 						<h5>CLIENTS</h5>
 						<h2>CHECK OUR CLIENTS</h2>
