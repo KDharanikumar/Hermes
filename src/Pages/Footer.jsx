@@ -39,11 +39,11 @@ const Footer = () => {
 										<span>{">"}</span>Services
 									</Link>
 								</li>
-								{/* <li>
+								<li>
 									<Link to="clients">
 										<span>{">"}</span>Clients
 									</Link>
-								</li> */}
+								</li>
 								<li>
 									<Link to="contact">
 										<span>{">"}</span>Contact
@@ -56,24 +56,24 @@ const Footer = () => {
 							<h3>Our Services</h3>
 							<ul>
 								<li>
-									<a href="###">
-										<span>{">"}</span>Web Development
-									</a>
+									<Link to="services">
+										<span>{">"}</span>General Staffing
+									</Link>
 								</li>
 								<li>
-									<a href="###">
-										<span>{">"}</span>Product Management
-									</a>
+									<Link to="services">
+										<span>{">"}</span>Permanent Recruitment
+									</Link>
 								</li>
 								<li>
-									<a href="###">
-										<span>{">"}</span>Marketing
-									</a>
+									<Link to="services">
+										<span>{">"}</span>Facility Management
+									</Link>
 								</li>
 								<li>
-									<a href="###">
-										<span>{">"}</span>Graphic Design
-									</a>
+									<Link to="services">
+										<span>{">"}</span>Apprentice Hiring
+									</Link>
 								</li>
 							</ul>
 						</div>

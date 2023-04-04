@@ -13,13 +13,13 @@ const Team = () => {
 	return (
 		<section id="team" className="team">
 			<div className="container-fluid">
-				<div className="container">
+				<div className="container m-auto">
 					<div className="section-title">
 						<h5>TEAM</h5>
 						<h2>CHECK OUR TEAM</h2>
 					</div>
 
-					<div className="row m-0">
+					<div className="row py-5">
 						<div className="col-lg-3 col-md-6 d-flex align-items-stretch">
 							<div className="member" data-aos="fade-up" data-aos-delay="100">
 								<div className="member-img">

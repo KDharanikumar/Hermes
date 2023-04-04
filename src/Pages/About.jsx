@@ -11,7 +11,7 @@ const About = () => {
 	}, []);
 	return (
 		<section id="about" className="about">
-			<div className="container-fluid p-0">
+			<div className="container-fluid">
 				<div className="container mb-5">
 					<div className="row">
 						<div className="section-title">
@@ -21,9 +21,9 @@ const About = () => {
 						<div className="col-lg-6 col-md">
 							<img src={Aboutimg} data-aos="fade-right" alt="about-img" />
 						</div>
-						<div className="col-lg-6 px-3 col-md about-content">
+						<div className="col-lg-6 col-md about-content">
 							<div data-aos="fade-left">
-								<h3 className="mb-3">About Hermes</h3>
+								<h3 className="mb-4">About Hermes</h3>
 								<p>
 									Established in 2004, Hermes is a leading workforce solutions provider having fulfilled end-to-end HR needs of 50+ customers spread
 									across 10+ industry sectors since inception.
@@ -38,9 +38,9 @@ const About = () => {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="container p-0">
-					<Clients />
+					<div className="py-5">
+						<Clients />
+					</div>
 				</div>
 			</div>
 		</section>

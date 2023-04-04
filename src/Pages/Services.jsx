@@ -58,7 +58,7 @@ const Services = () => {
 					<div className="tab-pane active show" id="tab-1">
 						<div className="row m-0 gy-4">
 							<div className="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
-								<h3>General Staffing</h3>
+								<h3 className="mb-3">General Staffing</h3>
 								<p className="fst-italic">
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								</p>
@@ -89,7 +89,7 @@ const Services = () => {
 					<div className="tab-pane" id="tab-2">
 						<div className="row m-0 gy-4">
 							<div className="col-lg-8 order-2 order-lg-1">
-								<h3>Permanent Recruitment</h3>
+								<h3 className="mb-3">Permanent Recruitment</h3>
 								<p>
 									Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
 									dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
@@ -124,7 +124,7 @@ const Services = () => {
 					<div className="tab-pane" id="tab-3">
 						<div className="row m-0 gy-4">
 							<div className="col-lg-8 order-2 order-lg-1">
-								<h3>Facility Management</h3>
+								<h3 className="mb-3">Facility Management</h3>
 								<p>
 									Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
 									dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
@@ -154,7 +154,7 @@ const Services = () => {
 					<div className="tab-pane" id="tab-4">
 						<div className="row m-0 gy-4">
 							<div className="col-lg-8 order-2 order-lg-1">
-								<h3>Apprentice Hiring</h3>
+								<h3 className="mb-3">Apprentice Hiring</h3>
 								<p>
 									Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
 									dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id

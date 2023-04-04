@@ -16,26 +16,15 @@ const Home = () => {
 
 	return (
 		<section>
-			<div className="container-fluid m-0 p-0">
+			<div className="container-fluid">
 				<Banner />
 			</div>
-
-			<div className="container p-0">
-				<div>
-					<Counter />
-				</div>
-				<div>
-					<StaffingServices />
-				</div>
-				<div>
-					<Benefits />
-				</div>
-				<div>
-					<Process />
-				</div>
-				<div>
-					<Industries />
-				</div>
+			<div className="container">
+				<Counter />
+				<StaffingServices />
+				<Benefits />
+				<Process />
+				<Industries />
 			</div>
 		</section>
 	);

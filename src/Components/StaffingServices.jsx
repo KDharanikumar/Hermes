@@ -12,7 +12,7 @@ const StaffingServices = () => {
 	return (
 		<section>
 			<div className="container-fluid">
-				<div className="container p-0 staffing-services">
+				<div className="container staffing-services">
 					<div className="row">
 						<div className="section-title">
 							<h5>SERVICES</h5>

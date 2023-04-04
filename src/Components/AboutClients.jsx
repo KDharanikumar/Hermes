@@ -16,9 +16,9 @@ const Clients = () => {
 	}, []);
 	return (
 		<section id="about-clients" className="about-clients">
-			<div className="container mb-5">
+			<div className="container my-5 px-3">
 				<div className="row">
-					<div className="col-lg col-md-2 col-sm-2 gap-3 d-flex flex-wrap justify-content-between align-items-center text-center">
+					<div className="col-lg col-md-6 d-flex flex-wrap justify-content-between align-items-center text-center">
 						<img src={PowerGear} className="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200" />
 
 						<img src={Reep} className="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300" />

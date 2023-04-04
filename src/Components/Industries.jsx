@@ -17,43 +17,43 @@ const Industries = () => {
 	return (
 		<section>
 			<div className="container-fluid mb-5">
-				<div className="container p-0 industries">
+				<div className="container industries">
 					<div className="row">
 						<div className="section-title">
 							<h5>INDUSTRIES</h5>
 							<h2>INDUSTRIES WE SERVE</h2>
 						</div>
-						<div className="p-0 d-flex flex-wrap justify-content-between align-items-center text-center">
+						<div className="d-flex flex-wrap justify-content-between align-items-center text-center">
 							<div className="col-lg-2 col-md-6 industries-serve">
-								<Lottie className="icon" loop={true} animationData={Engineering} data-aos="fade-right" />
-								<p data-aos="fade-left">
+								<Lottie className="icon" loop={true} animationData={Engineering} data-aos="fade-up" />
+								<p data-aos="fade-down">
 									Engineering <br /> Manufacturing
 								</p>
 							</div>
 
 							<div className="col-lg-2 col-md-6 industries-serve">
-								<Lottie className="icon" loop={true} animationData={Infrastructure} data-aos="fade-left" />
-								<p data-aos="fade-right">Infrastructure</p>
+								<Lottie className="icon" loop={true} animationData={Infrastructure} data-aos="fade-up" />
+								<p data-aos="fade-down">Infrastructure</p>
 							</div>
 
 							<div className="col-lg-2 col-md-6 industries-serve">
-								<Lottie className="icon" loop={true} animationData={FMCD} data-aos="fade-right" />
-								<p data-aos="fade-left">FMCG & FMCD</p>
+								<Lottie className="icon" loop={true} animationData={FMCD} data-aos="fade-up" />
+								<p data-aos="fade-down">FMCG & FMCD</p>
 							</div>
 
 							<div className="col-lg-2 col-md-6 industries-serve">
-								<Lottie className="icon" loop={true} animationData={Telecom} data-aos="fade-left" />
-								<p data-aos="fade-right">Telecom</p>
+								<Lottie className="icon" loop={true} animationData={Telecom} data-aos="fade-up" />
+								<p data-aos="fade-down">Telecom</p>
 							</div>
 
 							<div className="col-lg-2 col-md-6 industries-serve">
-								<Lottie className="icon" loop={true} animationData={Logistics} data-aos="fade-right" />
-								<p data-aos="fade-left">Logistics</p>
+								<Lottie className="icon" loop={true} animationData={Logistics} data-aos="fade-up" />
+								<p data-aos="fade-down">Logistics</p>
 							</div>
 
 							<div className="col-lg-2 col-md-6 industries-serve">
-								<Lottie className="icon" loop={true} animationData={Healthcare} data-aos="fade-left" />
-								<p data-aos="fade-right">Healthcare</p>
+								<Lottie className="icon" loop={true} animationData={Healthcare} data-aos="fade-up" />
+								<p data-aos="fade-down">Healthcare</p>
 							</div>
 						</div>
 					</div>
