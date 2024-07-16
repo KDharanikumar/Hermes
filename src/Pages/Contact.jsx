@@ -68,20 +68,20 @@ const Contact = () => {
 						</div>
 
 						<div className="col-lg-6 mt-4 mt-lg-0">
-							<form className="contact-form">
+							<form method="post" action="send-email.php" className="contact-form">
 								<div className="row">
 									<div className="col-md-6 form-group">
-										<input type="text" className="form-control" Name="name" id="name" placeholder="You Name" required />
+										<input type="text" className="form-control" name="FullName" id="name" placeholder="You Name" required />
 									</div>
 									<div className="col-md-6 form-group mt-3 mt-md-0">
-										<input type="email" className="form-control" Name="email" id="email" placeholder="Your Email" required />
+										<input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required />
 									</div>
 								</div>
 								<div className="form-group mt-3">
-									<input type="text" className="form-control" Name="subject" id="subject" placeholder="Subject" required />
+									<input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
 								</div>
 								<div className="form-group mt-3">
-									<textarea className="form-control" Name="message" rows="5" placeholder="Message" required></textarea>
+									<textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
 								</div>
 								<div className="text-center">
 									<button type="submit">Send Message</button>

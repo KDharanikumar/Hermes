@@ -7,7 +7,7 @@ const Footer = () => {
 				<div className="container p-0">
 					<div className="row m-0">
 						<div className="col-lg-4 col-md footer-contact">
-							<h2>HERMES</h2>
+							<h3 style={{ color: "#FF5D30" }}>HERMES</h3>
 							<p>
 								A108 Oragadam <br />
 								Oragadam, 600 235
@@ -82,19 +82,19 @@ const Footer = () => {
 			</div>
 
 			<div className="container-fluid footer-bottom">
-				<div>
-					<div className="copyright mb-2">
+				<div className="d-flex justify-content-around align-items-center">
+					<div className="copyright">
 						&copy; Copyright
 						<strong>
-							<span> Hermes</span>
+							<span> Hermes </span>
 						</strong>
-						. All Rights Reserved
+						All Rights Reserved.
 					</div>
 					<div>
 						Designed by
 						<strong className="px-2">
-							<a href="https://www.youkotech.com/" target="_blank" style={{ color: "#FF5D30" }} rel="noreferrer">
-								YoukoTech
+							<a href="https://www.starflit.com/" target="_blank" style={{ color: "#FF5D30" }} rel="noreferrer">
+								Starflit
 							</a>
 						</strong>
 					</div>

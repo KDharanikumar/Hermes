@@ -29,7 +29,7 @@ const Counter = () => {
 								<BsEmojiSmile />
 							</i>
 							<span>
-								<Number n={12} />
+								<Number n={20} />
 							</span>
 							<p>Happy Clients</p>
 						</div>
@@ -53,7 +53,7 @@ const Counter = () => {
 								<BsClock />
 							</i>
 							<span>
-								<Number n={14} />
+								<Number n={10} />
 							</span>
 							<p>Years of experience</p>
 						</div>
@@ -65,7 +65,7 @@ const Counter = () => {
 								<BsPeople />
 							</i>
 							<span>
-								<Number n={500} />
+								<Number n={700} />
 							</span>
 							<p>Hard Workers</p>
 						</div>
