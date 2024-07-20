@@ -49,7 +49,7 @@ const Contact = () => {
 												<HiOutlineMail className="mb-3" />
 											</i>
 											<h3>Email Us</h3>
-											<p>info@example.com</p>
+											<h6>hermesfacilityservices@gmail.com</h6>
 										</div>
 									</div>
 								</div>
@@ -60,7 +60,7 @@ const Contact = () => {
 												<HiPhone className="mb-3" />
 											</i>
 											<h3>Call Us</h3>
-											<p>+1 5589 55488 55</p>
+											<h6>+91-9150856050</h6>
 										</div>
 									</div>
 								</div>

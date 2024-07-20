@@ -432,6 +432,31 @@ a {
   margin-bottom: 30px;
 }
 
+.client-logos {
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.client-logos img {
+  display: inline-block;
+  transform: translateX(100%);
+  animation: move 5s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
 /*****************************************************SERVICES*****************************************/
 
 .services .nav-tabs {
@@ -523,9 +548,9 @@ a {
 }
 
 .clients .icon-box img {
-  height: 80px;
+  height: 100px;
   width: 100px;
-  object-fit: fill;
+  object-fit: contain;
   margin-bottom: 10px;
 }
 

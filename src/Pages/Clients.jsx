@@ -8,6 +8,9 @@ import Reep from "../Images/Reep.png";
 import SKH from "../Images/SKH.png";
 import Vembu from "../Images/Vembu.png";
 import Wittur from "../Images/Wittur.png";
+import Lohamann from "../Images/Lohmann.png";
+import KRAuto from "../Images/KR_Auto.png";
+import IRIndia from "../Images/IR_India.png";
 
 const Clients = () => {
 	useEffect(() => {
@@ -85,6 +88,42 @@ const Clients = () => {
 								<div>
 									<img src={PowerGear} alt="PowerGear-Logo"></img>
 									<h5>Rilkn Manufacturing</h5>
+								</div>
+							</div>
+						</div>
+
+						<div className="col-lg-3 col-md-4 mt-4">
+							<div className="icon-box my-lg-4 my-md-2">
+								<div>
+									<img src={Lohamann} alt="Lohamann-Logo"></img>
+									<h5>Lohmann Adhesive Tapes India Pvt Ltd.</h5>
+								</div>
+							</div>
+						</div>
+
+						<div className="col-lg-3 col-md-4 mt-4">
+							<div className="icon-box my-lg-4 my-md-2">
+								<div>
+									<img src={SKH} alt="PowerGear-Logo"></img>
+									<h5>SIAC SKH</h5>
+								</div>
+							</div>
+						</div>
+
+						<div className="col-lg-3 col-md-4 mt-4">
+							<div className="icon-box my-lg-4 my-md-2">
+								<div>
+									<img src={KRAuto} alt="KR_Auto-Logo"></img>
+									<h5>KR Auto Components</h5>
+								</div>
+							</div>
+						</div>
+
+						<div className="col-lg-3 col-md-4 mt-4">
+							<div className="icon-box my-lg-4 my-md-2">
+								<div>
+									<img src={IRIndia} alt="IR_India-Logo"></img>
+									<h5>IR India Pvt Ltd.</h5>
 								</div>
 							</div>
 						</div>

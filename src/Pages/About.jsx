@@ -25,16 +25,19 @@ const About = () => {
 							<div data-aos="fade-left">
 								<h3 className="mb-4">About Hermes</h3>
 								<p>
-									Established in 2004, Hermes is a leading workforce solutions provider having fulfilled end-to-end HR needs of 50+ customers spread
-									across 10+ industry sectors since inception.
+									Established in 2015, Hermes is a leading workforce solutions provider that has successfully managed the end-to-end HR needs of over
+									20 clients across more than 5 industry sectors since its inception.
 								</p>
 								<p>
-									Hermes an HR support company in contract Management, Policy Frame work and Wage standardization is known to have worked with various
-									corporates and has been a catalyst in running their day to day operations. We take pride in mentioning that we have been
-									specifically handpicked by corporate for crucial assignments and studies. Driven by professionals from various industries Hermes is
-									known for its delivery of projects on time. As a company we are focused at changing lives and mentoring career management.
+									Specializing in contract management, policy framework development, and wage standardization, Hermes has collaborated with numerous
+									corporations, playing a pivotal role in their day-to-day operations. We take pride in being selected by corporate entities for
+									critical assignments and studies. Our team comprises professionals from diverse industries, ensuring the timely delivery of
+									projects.
 								</p>
-								<p>To know more about how we can help in your business journey, please call us at 1800000000 or write to us at sales@xxx.in.</p>
+								<p>
+									At Hermes, we are dedicated to transforming lives and nurturing career management. Discover how we can support your business journey
+									by contacting us at +91-9150856050 or emailing <span className="text-primary">hermesfacilityservices@gmail.com.</span>
+								</p>
 							</div>
 						</div>
 					</div>

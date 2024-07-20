@@ -8,17 +8,21 @@ import Reep from "../Images/Reep.png";
 import SKH from "../Images/SKH.png";
 import Vembu from "../Images/Vembu.png";
 import Wittur from "../Images/Wittur.png";
+import Lohmann from "../Images/Lohmann.png";
+import KR from "../Images/KR_Auto.png";
+import IR from "../Images/IR_India.png";
 
 const Clients = () => {
 	useEffect(() => {
 		AOS.init();
 		AOS.refresh();
 	}, []);
+
 	return (
 		<section id="about-clients" className="about-clients">
 			<div className="container my-5">
 				<div className="row">
-					<div className="col-lg col-md-6 d-flex flex-wrap justify-content-between align-items-center text-center">
+					<div className="client-logos text-nowrap col-lg col-md-6 d-flex flex-wrap justify-content-between align-items-center text-center">
 						<img src={PowerGear} className="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200" />
 
 						<img src={Reep} className="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300" />
@@ -32,6 +36,12 @@ const Clients = () => {
 						<img src={Vembu} className="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500" />
 
 						<img src={Wittur} className="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500" />
+
+						<img src={Lohmann} className="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500" />
+
+						<img src={KR} className="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500" />
+
+						<img src={IR} className="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500" />
 					</div>
 				</div>
 			</div>

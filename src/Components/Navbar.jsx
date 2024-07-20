@@ -52,11 +52,11 @@ const Navbar = () => {
 							</Link>
 						</li>
 
-						<li className={`nav-item ${activeLink === "/team" ? "active" : ""}`}>
+						{/* <li className={`nav-item ${activeLink === "/team" ? "active" : ""}`}>
 							<Link className="nav-link" to="/team" onClick={() => handleSetActiveLink("/team")}>
 								TEAM
 							</Link>
-						</li>
+						</li> */}
 
 						<li className={`nav-item ${activeLink === "/contact" ? "active" : ""}`}>
 							<Link className="nav-link" to="/contact" onClick={() => handleSetActiveLink("/contact")}>
