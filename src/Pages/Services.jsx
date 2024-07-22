@@ -54,12 +54,12 @@ const Services = () => {
 					</li>
 				</ul>
 
-				<div className="tab-content">
+				<div className="tab-content" style={{ textAlign: "justify" }}>
 					<div className="tab-pane active show" id="tab-1">
 						<div className="row m-0 gy-4">
 							<div className="col-lg-8 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="100">
 								<h3 className="mb-3">General Staffing</h3>
-								<p className="fst-italic">
+								<p className="fst-italic" style={{ textAlign: "justify" }}>
 									At Hermes, we specialize in providing comprehensive general staffing solutions tailored to meet the dynamic needs of businesses
 									across diverse industries. With a proven track record of excellence, we assist companies in sourcing, selecting, and deploying
 									talented individuals who align perfectly with their organizational goals.
