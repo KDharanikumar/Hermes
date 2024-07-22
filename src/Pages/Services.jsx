@@ -53,7 +53,6 @@ const Services = () => {
 						</Link>
 					</li>
 				</ul>
-
 				<div className="tab-content" style={{ textAlign: "justify" }}>
 					<div className="tab-pane active show" id="tab-1">
 						<div className="row m-0 gy-4">
