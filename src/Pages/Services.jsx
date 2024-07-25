@@ -63,8 +63,7 @@ const Services = () => {
 									across diverse industries. With a proven track record of excellence, we assist companies in sourcing, selecting, and deploying
 									talented individuals who align perfectly with their organizational goals.
 								</p>
-
-								<h5>Our General Staffing Services Include:</h5>
+								<h5 className="mb-3">Our General Staffing Services Include:</h5>
 								<ul>
 									<li>
 										<icon></icon>
@@ -111,8 +110,7 @@ const Services = () => {
 									for long-term success. With our extensive network and industry expertise, we streamline the recruitment process to ensure you find
 									the perfect fit for your team.
 								</p>
-								<h5>Why Choose Hermes for Permanent Recruitment?</h5>
-
+								<h5 className="mb-3">Why Choose Hermes for Permanent Recruitment?</h5>
 								<ul>
 									<li>
 										<icon></icon> <span className="fw-bold">1. Specialized Expertise : </span> Our team of recruitment specialists understands the
@@ -130,9 +128,7 @@ const Services = () => {
 										needs.
 									</li>
 								</ul>
-
-								<h5>Our Approach to Permanent Recruitment:</h5>
-
+								<h5 className="mb-3">Our Approach to Permanent Recruitment:</h5>
 								<ul>
 									<li>
 										<icon></icon> <span className="fw-bold">1. Consultation and Needs Assessment : </span>We start by understanding your company's
@@ -172,7 +168,7 @@ const Services = () => {
 									Welcome to Hermes, your reliable partner in facility management staffing solutions. We specialize in providing skilled personnel to
 									support the seamless operation and maintenance of your facilities, ensuring efficiency, safety, and compliance.
 								</p>
-								<h5>Our Facility Management Staffing Services Include:</h5>
+								<h5 className="mb-3">Our Facility Management Staffing Services Include:</h5>
 								<ul>
 									<li>
 										<icon></icon> <span className="fw-bold">1. Maintenance Technicians : </span> Highly trained professionals capable of maintaining
@@ -192,7 +188,7 @@ const Services = () => {
 									</li>
 								</ul>
 
-								<h5>Why Choose Hermes for Facility Management Staffing?</h5>
+								<h5 className="mb-3">Why Choose Hermes for Facility Management Staffing?</h5>
 								<ul>
 									<li>
 										<icon></icon> <span className="fw-bold">1. Industry Expertise : </span> With years of experience in facility management staffing,
@@ -209,7 +205,7 @@ const Services = () => {
 									</li>
 								</ul>
 
-								<h5>Our Approach to Facility Management Staffing:</h5>
+								<h5 className="mb-3">Our Approach to Facility Management Staffing:</h5>
 								<ul>
 									<li>
 										<icon></icon> <span className="fw-bold">1. Needs Assessment : </span> We collaborate closely with you to understand your facility
@@ -249,7 +245,7 @@ const Services = () => {
 									Welcome to Hermes, your trusted partner in apprentice hiring solutions. We specialize in connecting businesses with enthusiastic
 									individuals eager to learn and contribute to your organization's success through apprenticeship programs.
 								</p>
-								<h5>Our Apprentice Hiring Services Include:</h5>
+								<h5 className="mb-3">Our Apprentice Hiring Services Include:</h5>
 								<ul>
 									<li>
 										<icon></icon> <span className="fw-bold">1. Recruitment and Placement : </span> We assist businesses in recruiting and placing
@@ -266,7 +262,7 @@ const Services = () => {
 									</li>
 								</ul>
 
-								<h5>Why Choose Hermes for Apprentice Hiring?</h5>
+								<h5 className="mb-3">Why Choose Hermes for Apprentice Hiring?</h5>
 								<ul>
 									<li>
 										<icon></icon> <span className="fw-bold">1. Industry Connections : </span> With a robust network and deep industry knowledge, we
@@ -282,7 +278,7 @@ const Services = () => {
 									</li>
 								</ul>
 
-								<h5>Our Approach to Apprentice Hiring:</h5>
+								<h5 className="mb-3">Our Approach to Apprentice Hiring:</h5>
 								<ul>
 									<li>
 										<icon></icon> <span className="fw-bold">1. Needs Assessment : </span> We work closely with your team to understand your

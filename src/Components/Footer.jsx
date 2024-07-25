@@ -14,9 +14,9 @@ const Footer = () => {
 								<br />
 								Tamil Nadu <br />
 								<br />
-								<strong>Phone : </strong> +91 00000 00000
+								<strong>Phone : </strong> +91-9150856050
 								<br />
-								<strong>Email : </strong> info@example.com
+								<strong>Email : </strong> hermesfacilityservices@gmail.com
 								<br />
 							</p>
 						</div>
