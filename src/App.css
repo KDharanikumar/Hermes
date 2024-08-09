@@ -433,7 +433,7 @@ todo .navbar .navbar-toggler {
 	height: 100px;
 	width: 100px;
 	object-fit: contain;
-	margin-bottom: 30px;
+	/* margin-bottom: 30px; */
 }
 
 .client-logos {
@@ -446,7 +446,7 @@ todo .navbar .navbar-toggler {
 .client-logos img {
 	display: inline-block;
 	transform: translateX(100%);
-	animation: move 5s linear infinite;
+	animation: move 10s linear infinite;
 }
 
 @keyframes move {

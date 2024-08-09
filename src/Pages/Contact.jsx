@@ -38,7 +38,7 @@ const Contact = () => {
 												<HiLocationMarker className="mb-3" />
 											</i>
 											<h3>Our Address</h3>
-											<p>A108 Adam Street, New York, NY 535022</p>
+											<p className="fw-bold">Plot No.18, Sakthi Nagar, Sattamangalam, Maraimalai Nagar, Tamilnadu - 603 209</p>
 										</div>
 									</div>
 								</div>

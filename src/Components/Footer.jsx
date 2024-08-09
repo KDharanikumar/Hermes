@@ -9,10 +9,7 @@ const Footer = () => {
 						<div className="col-lg-4 col-md footer-contact">
 							<h3 style={{ color: "#FF5D30" }}>HERMES</h3>
 							<p>
-								A108 Oragadam <br />
-								Oragadam, 600 235
-								<br />
-								Tamil Nadu <br />
+								Plot No.18, Sakthi Nagar,<br /> Sattamangalam, Maraimalai Nagar<br /> Tamilnadu - 603 209 <br />
 								<br />
 								<strong>Phone : </strong> +91-9150856050
 								<br />

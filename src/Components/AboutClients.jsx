@@ -1,6 +1,9 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import IR from "../Images/IR_India.png";
+import KR from "../Images/KR_Auto.png";
+import Lohmann from "../Images/Lohmann.png";
 import Microtek from "../Images/Microtek.JPG";
 import Motherson from "../Images/Motherson.png";
 import PowerGear from "../Images/PowerGear.png";
@@ -8,9 +11,6 @@ import Reep from "../Images/Reep.png";
 import SKH from "../Images/SKH.png";
 import Vembu from "../Images/Vembu.png";
 import Wittur from "../Images/Wittur.png";
-import Lohmann from "../Images/Lohmann.png";
-import KR from "../Images/KR_Auto.png";
-import IR from "../Images/IR_India.png";
 
 const Clients = () => {
 	useEffect(() => {
