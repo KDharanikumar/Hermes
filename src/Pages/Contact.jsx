@@ -32,13 +32,12 @@ const Contact = () => {
 				<h5>CONTACT</h5>
 				<h2>CONTACT US</h2>
 			</div>
-
       <div className="container-fluid map p-0 m-0 my-5">
         <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3890.639268529488!2d80.00592417507359!3d12.801911387498068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDQ4JzA2LjkiTiA4MMKwMDAnMzAuNiJF!5e0!3m2!1sen!2sin!4v1723224608056!5m2!1sen!2sin"
-          frameborder="0"
+         	frameborder="0"
 					allowfullscreen=""
 					loading="lazy"
-					title="Starflit"
+					title="Hermes Facility"
 					referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 
@@ -65,7 +64,7 @@ const Contact = () => {
 												<HiOutlineMail className="mb-3" />
 											</i>
 											<h3>Email Us</h3>
-											<h6>hermesfacilityservices@gmail.com</h6>
+											<h6>contact@hermesfacility.com</h6>
 										</div>
 									</div>
 								</div>
