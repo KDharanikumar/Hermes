@@ -11,9 +11,9 @@ const Footer = () => {
 							<p>
 								Plot No.18, Sakthi Nagar,<br /> Sattamangalam, Maraimalai Nagar<br /> Tamilnadu - 603 209 <br />
 								<br />
-								<strong>Phone : </strong> +91-9150856050
+								<strong>Phone : </strong> +91 - 91508 56050
 								<br />
-								<strong>Email : </strong> hermesfacilityservices@gmail.com
+								<strong>Email : </strong> contact@hermesfacility.com
 								<br />
 							</p>
 						</div>

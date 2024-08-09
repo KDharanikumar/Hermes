@@ -686,35 +686,35 @@ todo .navbar .navbar-toggler {
 	margin-bottom: 0;
 }
 
-.contact-form {
+.form {
 	box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
 	padding: 30px;
 }
 
-.contact-form input,
-.contact-form textarea {
+.form input,
+.form textarea {
 	border-radius: 0;
 	box-shadow: none;
 	font-size: 14px;
 	border-radius: 4px;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
+.form input:focus,
+.form textarea:focus {
 	box-shadow: none;
 	border-color: #ff4a17;
 }
 
-.contact-form input {
+.form input {
 	padding: 10px 15px;
 }
 
-.contact-form textarea {
+.form textarea {
 	padding: 12px 15px;
 	margin-bottom: 30px;
 }
 
-.contact-form button[type="submit"] {
+.form button[type="submit"] {
 	background: #ff4a17;
 	border: 0;
 	padding: 10px 24px;
@@ -723,7 +723,7 @@ todo .navbar .navbar-toggler {
 	border-radius: 4px;
 }
 
-.contact-form button[type="submit"]:hover {
+.form button[type="submit"]:hover {
 	background: #ff5e31;
 }
 

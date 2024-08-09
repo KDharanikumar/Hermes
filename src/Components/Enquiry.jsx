@@ -8,7 +8,7 @@ const Enquiry = () => {
 				</div>
 				<div className="row my-5">
 					<div className="col-lg mt-4 mt-lg-0">
-						<form className="contact-form">
+						<form className="form">
 							<div className="row">
 								<div className="col-md-6 form-group">
 									<input type="text" className="form-control" Name="name" id="name" placeholder="You Name" required />

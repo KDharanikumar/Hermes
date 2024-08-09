@@ -36,7 +36,7 @@ const About = () => {
 								</p>
 								<p>
 									At Hermes, we are dedicated to transforming lives and nurturing career management. Discover how we can support your business journey
-									by contacting us at +91-9150856050 or emailing <span className="text-primary">hermesfacilityservices@gmail.com.</span>
+									by contacting us at +91-9150856050 or emailing <span className="text-primary">contact@hermesfacility.com.</span>
 								</p>
 							</div>
 						</div>

@@ -4,10 +4,28 @@ import { useEffect } from "react";
 import { HiLocationMarker, HiOutlineMail, HiPhone } from "react-icons/hi";
 
 const Contact = () => {
-	useEffect(() => {
+   function Submit(e) {
+    const formEle = document.querySelector("form");
+    const formDatab = new FormData(formEle);
+    fetch(
+      "https://script.google.com/macros/s/AKfycbx4oD3_mRmzmzg3tb9UAzZ9fdikaIlEY0LslJrNpEikcD5PIlKRpejiyVEAZXJ03qCgOg/exec",
+      {
+        method: "POST",
+        body: formDatab
+      }
+    )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }
+  	useEffect(() => {
 		AOS.init();
 		AOS.refresh();
-	}, []);
+  }, []);
 	return (
 		<section>
 			<div className="section-title">
@@ -15,15 +33,13 @@ const Contact = () => {
 				<h2>CONTACT US</h2>
 			</div>
 
-			<div className="container-fluid map p-0 m-0 my-5">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d62255.74999072992!2d79.6415077603236!3d12.77952609132754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x3a52dd3ed66d6515%3A0xf74226e526c3d9ee!2sSTARFLIT%2C%20QMHG%2BRJ6%2C%20Vallalar%20Nagar%2C%20Dusi%20%26%20Dusi%20Post%2C%20Vembakkam%2C%20Taluk%2C%20Tamil%20Nadu%20631702%2C%20India!3m2!1d12.7795284!2d79.6765274!4m0!5e0!3m2!1sen!2sbg!4v1678894565870!5m2!1sen!2sbg"
-					frameborder="0"
+      <div className="container-fluid map p-0 m-0 my-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3890.639268529488!2d80.00592417507359!3d12.801911387498068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDQ4JzA2LjkiTiA4MMKwMDAnMzAuNiJF!5e0!3m2!1sen!2sin!4v1723224608056!5m2!1sen!2sin"
+          frameborder="0"
 					allowfullscreen=""
 					loading="lazy"
 					title="Starflit"
-					referrerpolicy="no-referrer-when-downgrade"
-				></iframe>
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
 			</div>
 
 			<div id="contact" className="contact mb-5">
@@ -68,23 +84,23 @@ const Contact = () => {
 						</div>
 
 						<div className="col-lg-6 mt-4 mt-lg-0">
-							<form method="post" action="send-email.php" className="contact-form">
+							<form className="form" onSubmit={(e) => Submit(e)}>
 								<div className="row">
 									<div className="col-md-6 form-group">
-										<input type="text" className="form-control" name="FullName" id="name" placeholder="You Name" required />
+										<input type="text" className="form-control" name="Name"  placeholder="Name" required />
 									</div>
 									<div className="col-md-6 form-group mt-3 mt-md-0">
-										<input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required />
+										<input type="email" className="form-control" name="Email"  placeholder="Email" required />
 									</div>
 								</div>
 								<div className="form-group mt-3">
-									<input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
+									<input type="text" className="form-control" name="Subject"  placeholder="Subject" required />
 								</div>
 								<div className="form-group mt-3">
-									<textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+									<textarea type="text" className="form-control" name="Message" rows="5" placeholder="Message" required></textarea>
 								</div>
 								<div className="text-center">
-									<button type="submit">Send Message</button>
+									<button name="Name" type="submit">Send Message</button>
 								</div>
 							</form>
 						</div>
