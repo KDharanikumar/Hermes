@@ -74,7 +74,7 @@ const Contact = () => {
                         <HiOutlineMail className="mb-3" />
                       </i>
                       <h3>Email Us</h3>
-                      <h6>hermesfacilityservices@gmail.com</h6>
+                      <h6>contact@hermesfacility.com</h6>
                     </div>
                   </div>
                 </div>
