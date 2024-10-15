@@ -8,19 +8,19 @@ import Services from "../Pages/Services";
 import Enquiry from "./Enquiry";
 
 const Navigation = () => {
-	return (
-		<section className="navigation">
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="enquiry" element={<Enquiry />} />
-				<Route path="aboutus" element={<About />} />
-				<Route path="services" element={<Services />} />
-				<Route path="clients" element={<Clients />} />
-				{/* <Route path="team" element={<Team />} /> */}
-				<Route path="contact" element={<Contact />} />
-			</Routes>
-		</section>
-	);
+  return (
+    <section className="navigation">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="enquiry" element={<Enquiry />} />
+        <Route path="aboutus" element={<About />} />
+        <Route path="services" element={<Services />} />
+        <Route path="clients" element={<Clients />} />
+        {/* <Route path="team" element={<Team />} /> */}
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+    </section>
+  );
 };
 
 export default Navigation;
